@@ -6,6 +6,20 @@ const App = () => {
   //estados useState() aqui recive el valor como array, objetos numeros,texto etc
   const [count, setCount]= useState(50);
 
+  //eventos para el contador
+  const handleAdd = () => {
+    
+    setCount(count+1);
+  };
+
+  const handleSubtract = () => {
+    setCount(count-1);
+  };
+
+  const handleReset = () => {
+    setCount(0);
+  }
+
 
   return (
     // container id "container" de donde se llamo desde index.css (gloables styles)) dentro de ese div
@@ -13,9 +27,9 @@ const App = () => {
       <h1>Counter: {count} </h1>
       {/* hr es linea divisoria */}
       <hr />
-      <button>+</button>
-      <button>-</button>
-      <button>reset</button>
+      <button onClick={handleAdd} >+</button>
+      <button onClick={handleSubtract}>-</button>
+      <button onClick={handleReset}>reset</button>
     </div>
   );
 };
