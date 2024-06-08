@@ -1,0 +1,35 @@
+/* estilos globales */
+
+.container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;     /* Centrar verticalmente */
+}
+
+.container h1{
+    font-size: 4rem;
+    justify-content: center;
+}
+    .container button{
+        background-position: 0% 0%;
+        background-size: 200% 200%;
+        transition: all 0.5s;
+        display: inline-block;
+        font-weight: bold;
+        text-align: center;
+        background-color: #c2c8e2;
+        color: #000;
+        font-size: 20px;
+        margin: 0px 1rem;
+        padding: 1rem;
+        border-radius: 100%;
+        width: 6rem;
+        height: 5rem;
+    }
+  
+        
+        
+
+    
+    
+
