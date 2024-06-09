@@ -37,7 +37,7 @@ const Cards = () => {
        
         {
        data.map(({lang,url, fcolor, scolor}) => {
-           return  <Card key={lang} lang={lang} img={url}/>
+           return  <Card key={lang} lang={lang} img={url} fcolor={fcolor} scolor={scolor}/>
 
             })}
         
@@ -48,5 +48,7 @@ const Cards = () => {
         </>
     );
 };
+
+
 
 export default Cards;

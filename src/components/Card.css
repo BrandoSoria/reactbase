@@ -87,6 +87,7 @@ img{
     height: 100px;
     color-scheme: light;
     transition: all 0.5s;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px;
 
 }
 
