@@ -2,6 +2,8 @@
 import { useState, Fragment } from "react";
 // aqui mandamos a llamar el lo que hay de estilos en app.css (estios locales)
 import "./App.css"
+import Card from "./components/Card";
+
 const App = () => {
   //estados useState() aqui recive el valor como array, objetos numeros,texto etc
   const [count, setCount]= useState(50);
@@ -38,4 +40,4 @@ const App = () => {
 
 
 
-export default App;
+export default Card;
