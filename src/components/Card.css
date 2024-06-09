@@ -1,5 +1,6 @@
 .card{
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -57,13 +58,106 @@
     animation-duration: 0.5s;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
-    animation-iteration-count: 1;   
+    animation-iteration-count: 1; 
+    animation-direction: normal;
+    animation-fill-mode: none;
+    
+    
+
+
 
 }
+.card:hover p{
+    color: #be2121;
+    transition: all 0.5s;
+    padding: auto;
+}
+.card:hover button{
+    background-position: 100% 0%;
+    background-size: 200% 200%;
+    background-origin: padding-box;
+    transition: all 0.5s;
+    color: #171212;
+    transition: all 0.5s;
+}
+ 
 
 img{
     width: 100px;
     height: 100px;
+    color-scheme: light;
+    transition: all 0.5s;
+
+}
+
+img:hover{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation-play-state: calc(100% - 0%);
+    animation-name: unset;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+
+    align-items: center;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color-scheme: light;
+
+    color: #171212;
+    border-radius: 100%;
+    border: 3px solid #1677df;
+    box-shadow: 5px 5px 5px 5px #5996eb;
+    transition: all 0.5s;
+    background-color: #5f95d3;
+    background-size: 200% 200%;
+    background-position: 100% 0%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: #5f95d3;
+    background-blend-mode: normal;
+    background-origin: padding-box;
+    color-scheme: light;
+    animation: unset;
+    transition: all 0.5s;
+    flood-color: #1eb174;
+    background-position: 0% 0%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: #c2c8e2;
+    background-blend-mode: normal;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: #c2c8e2;
+    background-blend-mode: normal;
+    background-origin: padding-box;
+    color-scheme: light;
+    animation: unset;
+    transition: all 0.5s;
+    flood-color: #1eb174;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    animation-name: unset;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
 
 }
 
@@ -74,6 +168,8 @@ h3{
 
 p{
     margin: 0;
+    padding: 1rem;
+    color: #000;
 
 }
 
@@ -95,13 +191,44 @@ button{
 
 }
 
+
+
+
 a{
     text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+
 
 }
 
 a:hover{
     color: #000;
+    background-size: 200% 200%;
+    background-position: 100% 0%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: #c2c8e2;
+    background-blend-mode: normal;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-color: #c2c8e2;
+    background-blend-mode: normal;
+    background-origin: padding-box;
+    color-scheme: light;
+    animation: unset;
+    transition: all 0.5s;
+
+
+
+
 
 }
+
+
+
 
