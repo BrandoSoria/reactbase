@@ -1,5 +1,11 @@
 .card{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c8e2;
+    cursor: pointer;
+    transition: all 0.5s;
     size-adjust: 100px;
     border: 3px solid rgba(0,0,0,0);
     padding: 10px;
@@ -24,9 +30,34 @@
 }
 .card:hover{
     background-position: 100% 0%;
+    background-size: 200% 200%;
+    transition: all 0.5s;
     border: 3px solid rgba(255,255,255,0.5);
     box-shadow: 5px 5px 5px 5px #e6e6e6;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.5s;
+    size-adjust: 100px;
+    background: linear-gradient(to bottom, #00c3ff, #00a4ff);
+    background-size: 200% 200%;
+    text-align: center;
+    font-weight: bold;
     transform: scale(1.1);
+    animation: unset;
+    animation-play-state: running;
+    animation-name: unset;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: paused;
+    animation-name: unset;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;   
 
 }
 
@@ -38,6 +69,29 @@ img{
 
 h3{
     margin: 0;
+
+}
+
+p{
+    margin: 0;
+
+}
+
+button{
+    background-position: 0% 0%;
+    background-size: 200% 200%;
+    transition: all 0.5s;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    background-color: #c2c8e2;
+    color: #000;
+    font-size: 20px;
+    margin: 0px 1rem;
+    padding: 1rem;
+    border-radius: 100%;
+    width: 6rem;
+    height: 5rem;
 
 }
 
